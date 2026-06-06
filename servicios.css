@@ -1,0 +1,75 @@
+/* ---------- RESUMEN KELSEN ---------- */
+
+.kelsen-summary {
+
+    width: 100%;
+
+    padding: 80px 5%;
+
+    background: white;
+}
+
+.summary-title {
+
+    text-align: center;
+
+    font-size: 2.8rem;
+
+    color: var(--color-night);
+
+    margin-bottom: 50px;
+}
+
+.summary-row {
+
+    display: flex;
+
+    margin-bottom: 20px;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+
+    transition: .3s;
+}
+
+.summary-row:hover {
+
+    transform: translateY(-3px);
+}
+
+.summary-left {
+
+    width: 280px;
+
+    background: var(--color-night);
+
+    color: white;
+
+    font-weight: bold;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 25px;
+
+    text-align: center;
+}
+
+.summary-right {
+
+    flex: 1;
+
+    background: var(--color-ivory);
+
+    padding: 25px 30px;
+
+    line-height: 1.8;
+
+    color: var(--color-onyx);
+}
